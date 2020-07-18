@@ -1,0 +1,137 @@
+.btn-outline-orange{
+    color: #ee806a;
+    border-color: #ee806a;
+}
+.btn-outline-orange:hover{
+    color: white;
+    border-color:#ee806a;
+    background-color:  #ee806a;
+}
+.btn-orange{
+    color: white;
+    border-color:#ee806a;
+    background-color:  #ee806a;
+}
+.btn-orange:hover{
+    color: white;
+    border-color:#ee806a;
+    background-color: #ee5d2c;
+}
+.pagecontainer{
+    padding-top: 60px;
+}
+.text-orange{
+    color: #ee806a;
+}
+.nav-pills .first.active{
+    background-color: whitesmoke;
+    border-left: 3px solid #ee806a;
+    border-radius: 0;
+    color: #ee806a;
+    font-weight: bold;
+}
+.nav-pills .second.active{
+    background-color: whitesmoke;
+    border-left: 3px solid #ee806a;
+    border-radius: 0;
+    color: #ee806a;
+}
+.nav a{
+    color: black;
+}
+.editli{
+    box-shadow: 0 0 0 1px #d9d9d9;
+    border-left: 5px solid transparent;
+    border-radius: 0;
+    color: #464646;
+    list-style: none;
+}
+.editli.active{
+    background-color: #e6e6e6;
+    border-left-color: #ee806a;
+    color: black;
+}
+.editli:hover{
+    background-color: #e6e6e6;
+}
+.editli .btn{
+    display: none;
+}
+.editli.active .btn{
+    display: inline-block;
+}
+.contextli{
+    border-left: 3px solid transparent;
+    border-radius: 0;
+    color: white;
+    line-height: 40px;
+    list-style: none;
+}
+.contextli.active{
+    background-color: darkgray;
+    border-left-color: #ee806a;
+
+}
+.contextli .btn{
+    display: none;
+}
+.contextli.active .btn{
+    display: inline-block;
+}
+.contextli:hover{
+    background-color: darkgray;
+}
+.editplus{
+    color: #6c757d;
+}
+.editplus:hover{
+    color: #464646;
+}
+
+.cursor{
+    cursor:pointer;
+}
+.font-small{
+    font-size: small;
+}
+.widthfull{
+    width: 100%;
+}
+.title-input{
+    flex-shrink: 0;
+    width: 100%;
+    padding: 0 80px 10px 10px;
+    margin-bottom: 0;
+    border: none;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #595959;
+    background-color: transparent;
+    outline: none;
+    border-radius: 0;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border-bottom: 1px solid #9E9E9E;
+}
+.ellipsis{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.list-style-none{
+    list-style: none;
+}
+html,body{
+    overflow:-Scroll;overflow-x:hidden;
+    height:100%
+}
+.row{
+    margin-left:0px;
+    margin-right:0px;
+}
+

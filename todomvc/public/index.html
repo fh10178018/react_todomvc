@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="UTF-8">
+    <title>TodoMVC</title>
+    <!--二级路由会出现样式全无，所以一定要用绝对路径，js文件也是-->
+    <link rel="stylesheet" href="/css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="/css/highlight/monokai-sublime.css"><!--引入代码高亮样式-->
+    <link rel="stylesheet" href="/css/font-awesome.css"><!--引入ICON样式-->
+    <link rel="stylesheet" href="/css/self.css"><!--引入自定义样式-->
+
+  </head>
+  <body  data-spy="scroll" data-target=".see" data-offset="100">
+    <div id="root"></div>
+    <!--bootstrap相关的js文件_start-->
+    <script src="/js/jquery.slim.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap/bootstrap.bundle.js"></script>
+    <!--bootstrap相关的js文件_end-->
+    <script type="text/javascript">
+        $(function(){
+            $('[data-toggle="tooltip"]').tooltip();<!--引入bootstrap的提示框-->
+        });
+    </script>
+  </body>
+</html>
